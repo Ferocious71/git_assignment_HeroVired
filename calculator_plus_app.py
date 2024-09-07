@@ -1,9 +1,12 @@
 # Implement the following function to calculate the square root of a number.
 import math
 
-def square_root(self, x):
- return math.sqrt(x)
+class Calculator:
 
+    def square_root(self, x):
+        return math.sqrt(x)
 
+if __name__ == "__main__":
+    calculator = Calculator()
 num3 = 25
 print(f"The square root of {num3} = {calculator.square_root(num3)}")
