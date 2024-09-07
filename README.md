@@ -18,4 +18,3 @@ question 3:
 2. Moving to and fro in both the branches to facilitate stashing in both the branches using stash, pop and add commands.
 3. Finally commit and push the changes and reviewed by the contributors to validate the code.
 4. Through pull request resolve the merge conflicts and merge dev code to main and validated everything working as per expectation.
-
