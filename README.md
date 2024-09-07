@@ -1,49 +1,21 @@
 # git_assignment_HeroVired
 
-In this same GitHub repository, create a new branch ‘geometry-calculator’, we'll work on a simple Python program that calculates the area of a circle and the area of a rectangle. We'll use Git stash to switch between working on multiple features (calculating circle area and calculating rectangle area) without committing incomplete changes.
+question 1: 
 
-Workflow Steps:
+1. Created Reository in Github- git_assignment_HeroVired and clone to local to work on the python code
+2. Created dev branch,added calculator code ,merge with main branch and release version 1.0.0 using 'branch, checkout,add, commit, merge ,push and tag commads of git'.
+3. Created a new branch to add a new feature and fix a bug in the main branch and finally pull to merge the final changes to main after the contributor review and approve the  code with final release version 2.0.0
 
-a. Create a New Branch:
-- Create a new branch named "feature/circle-area" to work on the circle area feature
+question 2:
 
-b. Stash Changes for Circle Area Feature:
-- Before committing the changes, stash them using git stash to save the incomplete feature implementation.
+1. Install lfs
+2. Envoke lfs to track what type of binary file we are storing.
+3. upload a huge file into the lfs branch and view the content through lfs commands
+4. finally add, commit and push the changes into github.
 
-- Verify that the working directory is clean
+question 2:
+1. Created 2 branch for calculating area of circle and rectangle.
+2. Moving to and fro in both the branches to facilitate stashing in both the branches using stash, pop and add commands.
+3. Finally commit and push the changes and reviewed by the contributors to validate the code.
+4. Through pull request resolve the merge conflicts and merge dev code to main and validated everything working as per expectation.
 
-c. Create a New Branch for Rectangle Area Feature:
-- Create a new branch named "feature/rectangle-area" to work on the rectangle area
-
-d. Stash Changes for Rectangle Area Feature:
-- Before committing the changes, stash them using git stash to save the incomplete feature implementation.
-
-- Verify that the working directory is clean
-
-e. Switch Back to Circle Area Branch:
-
-- Switch back to the "feature/circle-area" branch to continue working on the circle area feature.
-
-- Retrieve the stashed changes
-
-- Complete the circle area feature implementation and save the changes.
-
-f. Commit and Push Circle Area Feature:
-
-g. Switch Back to Rectangle Area Branch:
-
-- Switch back to the "feature/rectangle-area" branch to continue working on the rectangle area feature.
-
-- Retrieve the stashed changes
-
-- Complete the rectangle area feature implementation and save the changes. 
-
-h. Commit and Push Rectangle Area Feature
-
-i. Create Pull Requests:
-
-- Create a pull request to the ‘dev’ branch.
-
-j. Review and Merge
-
-- Have another team member or reviewer review your pull requests. - After receiving approval, merge both pull requests into the main branch.
