@@ -13,7 +13,7 @@ question 2:
 3. upload a huge file into the lfs branch and view the content through lfs commands
 4. finally add, commit and push the changes into github.
 
-question 2:
+question 3:
 1. Created 2 branch for calculating area of circle and rectangle.
 2. Moving to and fro in both the branches to facilitate stashing in both the branches using stash, pop and add commands.
 3. Finally commit and push the changes and reviewed by the contributors to validate the code.
