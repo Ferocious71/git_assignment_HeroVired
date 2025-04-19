@@ -1,8 +1,8 @@
-# git_assignment_HeroVired
+# Assignment on Git
 
 question 1: 
 
-1. Created Reository in Github- git_assignment_HeroVired and clone to local to work on the python code
+
 2. Created dev branch,added calculator code ,merge with main branch and release version 1.0.0 using 'branch, checkout,add, commit, merge ,push and tag commads of git'.
 3. Created a new branch to add a new feature and fix a bug in the main branch and finally pull to merge the final changes to main after the contributor review and approve the  code with final release version 2.0.0
 
